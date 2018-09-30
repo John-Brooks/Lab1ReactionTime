@@ -77,6 +77,11 @@ namespace WindowsFormsApp1
 
         }
 
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void UpdateLabels()
         { 
             lblAverageError.Text = Math.Round(avg_error).ToString() + " ms";

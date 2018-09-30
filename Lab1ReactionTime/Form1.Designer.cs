@@ -252,11 +252,12 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(188, 268);
+            this.label14.Location = new System.Drawing.Point(164, 268);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(75, 13);
+            this.label14.Size = new System.Drawing.Size(101, 13);
             this.label14.TabIndex = 33;
-            this.label14.Text = "Average Error:";
+            this.label14.Text = "Avg. Absolute Error:";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // lblMinError
             // 
